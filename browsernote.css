@@ -1,0 +1,31 @@
+.window.browsernote .winContents {
+    padding: 0;
+}
+
+.window.browsernote .winContents textarea{
+    font-family: Ubuntu Mono, monospace, "Noto Sans JP";
+    width: calc(100% - 16px);
+    margin: 0;
+    padding: 8px;
+    border: none;
+    resize: none;
+    background: #1e1e1e;
+    color: #efefef;
+    height: 300px;
+}
+
+.window.browsernote .winContents .saveBtn{
+    margin: 0px 16px 0px auto;
+    display: block;
+    background:#555;
+    border: solid 1px#444;
+}
+
+.window.browsernote .winContents .saveBtn:hover{
+    background:#888;
+}
+
+.window.browsernote .winContents .saveArea{
+    background: #333;
+    padding: 8px 0;
+}
